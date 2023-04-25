@@ -1,0 +1,2 @@
+page içindeki getPost fonk içinde formattedPosttaki mantık Image containerından fotolar yüklenirlen blur placeholderı
+olsun istiyoruz ama post.image string olduğu için hata veriyordu onu formattedPost işleminde hallettik
