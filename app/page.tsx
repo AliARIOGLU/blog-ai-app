@@ -12,7 +12,7 @@ export const revalidate = 60;
 const getPosts = async () => {
   const posts = await prisma.post.findMany();
 
-  const formattedPosts = await Promise.all(
+  const formattedPosts: any = await Promise.all(
     posts.map(async (post: Post) => {
       const imageModule = require(`../public${post.image}`);
       return {
