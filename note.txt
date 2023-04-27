@@ -1,8 +1,0 @@
-page içindeki getPost fonk içinde formattedPosttaki mantık Image containerından fotolar yüklenirlen blur placeholderı
-olsun istiyoruz ama post.image string olduğu için hata veriyordu onu formattedPost işleminde hallettik
-
-
-CategoryEdit tarafındaki template statelerin mantığı örneğin;
-
-başlıgımız:  "Title" olsun edit tuşuna basıp "Title edit" yaptık cancel edersek "Title" olarak kalacak ama submit edersek 
-"Title edit" olarak update olacak.
